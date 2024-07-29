@@ -1,0 +1,117 @@
+.offers {
+  width: 65%;
+  display: flex;
+  margin: auto;
+  height: 60vh;
+  padding: 0px 140px;
+  margin-bottom: 150px;
+  margin-top: 780px;
+  background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+}
+
+.offers-left {
+  float: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+.offers-left h1 {
+  color: #6ef640;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.offers-left p {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.offers-left button {
+  width: 382px;
+  height: 70px;
+  border-radius: 35px;
+  background: #6ef640;
+  border: none;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 30px;
+  cursor: pointer;
+  padding: 20px 20px;
+  align-items: center;
+}
+.offers-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 50px;
+}
+.excluscive_image {
+  height: 500px;
+  margin-top: 200px;
+}
+@media only screen and (max-width: 1024px) {
+  .offers {
+    display: flex;
+    margin: 90px 60px;
+    margin-bottom: 150px;
+    margin-top: 100px;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .offers {
+    display: block;
+    margin: 90px 60px;
+  }
+  .excluscive_image {
+    display: none;
+  }
+
+  .offers-left {
+    margin-top: 140%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .offers {
+    width: 45%;
+    display: flex;
+    margin: auto;
+    height: 60vh;
+    padding: 0px 140px;
+    margin-bottom: 450px;
+    margin-top: 280px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .offers-left {
+    display: block;
+    margin: 10px -120px;
+    margin-top: 260%;
+  }
+
+  .offers-left h1 {
+    font-size: 50px;
+    text-align: center;
+    text-align: center;
+  }
+
+  .offers-left p {
+    font-size: 30px;
+    text-align: center;
+    text-align: center;
+  }
+
+  .excluscive_image {
+    display: none;
+  }
+
+  .offers {
+    background: linear-gradient(180deg, #ffffff 0%, #ffffff22 60%);
+  }
+}

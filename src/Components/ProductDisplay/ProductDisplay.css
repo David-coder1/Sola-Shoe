@@ -1,0 +1,145 @@
+.productdisplay {
+  display: flex;
+  margin: 0px 170px;
+}
+
+.productdisplay-left {
+  display: flex;
+  gap: 17px;
+}
+
+.productdisplay-img-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.productdisplay-img-list img {
+  height: 114px;
+}
+
+.productdisplay-main-img {
+  height: 500px;
+  width: 490px;
+}
+.productdisplay-right {
+  margin: 0px 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.productdisplay-right h1 {
+  color: hsl(0, 0%, 0%);
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.productdispaly-right-stars {
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+
+  gap: 9px;
+  font-size: 18px;
+  color: #000000;
+}
+
+.productdispaly-right-prices {
+  display: flex;
+  margin: 40px 0px;
+  gap: 30px;
+  font-style: 24px;
+  font-weight: 700;
+}
+
+.productdisplay-right-price-new {
+  color: hsl(0, 100%, 50%);
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.productdisplay-right-description p {
+  color: hsl(0, 1%, 66%);
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.productdisplay-right-size h1 {
+  margin-top: 30px;
+  color: hsl(0, 1%, 66%);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.productdisplay-right-sizes {
+  margin: 30x 0px;
+  gap: 20px;
+  display: flex;
+  color: #171616;
+  font-weight: 500;
+}
+
+.productdisplay-right-sizes div {
+  padding: 18px 24px;
+  background: #d4d3d3;
+  border: 1px solid #ebebeb;
+  gap: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.productdisplay-right button {
+  padding: 20px 40px;
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 5px;
+  background: red;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .productdisplay-img-list img {
+    height: 114px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .productdisplay {
+    margin: 0px 180px;
+    display: block;
+  }
+
+  .productdisplay-right {
+    margin: 100px 2px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .productdisplay-right {
+    margin: 100px -90px;
+    display: block;
+  }
+  .productdisplay-img-list img {
+    display: none;
+  }
+
+  .productdisplay-main-img {
+    height: 200px;
+    width: 290px;
+    margin: 10px -150px;
+  }
+
+  .productdisplay-right-sizes {
+    margin: 30px 0px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #171616;
+    font-weight: 500;
+  }
+}
