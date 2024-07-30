@@ -1,6 +1,6 @@
 .item {
   width: 309px;
-  margin: 50px;
+  margin: 20px;
 
   border-radius: 10px;
   box-shadow: #6ef640 2px 2px 2px 2px;
@@ -35,19 +35,22 @@
 @media only screen and (max-width: 1024px) {
   .item-img {
     width: 200px;
-    margin: 20px;
+  }
+  .item {
+    width: 200px;
+    margin: 30px;
   }
 }
 
 @media only screen and (max-width: 912px) {
   .item-img {
     margin: 20px 60px;
-    width: 130px;
+    width: 140px;
     gap: 20px;
   }
   .item {
     width: 200px;
-    margin: 10px;
+    margin: 15px;
   }
 
   .item p {
@@ -65,26 +68,13 @@
   }
 }
 
-@media only screen and (max-width: 768) {
+@media only screen and (max-width: 820px) {
   .item-img {
-    width: 99px;
-    margin: 10px;
-  }
-}
-
-@media only screen and (max-width: 430) {
-  .item-img {
-    width: 79px;
-    margin: 10px;
-  }
-
-  .item-img {
-    margin: 20px 0px;
-    width: 30px;
-    gap: 20px;
+    width: 110px;
   }
   .item {
-    width: 100px;
-    margin: 10px;
+    width: 190px;
+
+    margin: 20px 10px;
   }
 }

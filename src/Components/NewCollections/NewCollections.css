@@ -62,18 +62,17 @@
 @media only screen and (max-width: 430px) {
   .new-collections {
     display: flex;
+    margin-top: 600px;
   }
   .new-collections h1 {
     color: #6ef640;
     font-size: 40px;
     font-weight: 600;
   }
-  .collections {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+
   .collection {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 2px 70px;
   }
 }

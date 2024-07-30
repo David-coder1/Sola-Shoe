@@ -65,7 +65,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1px;
-    margin: 40px 3090px;
+    margin: 40px;
   }
   .popular h1 {
     color: #6ef640;

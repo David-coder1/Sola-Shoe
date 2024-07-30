@@ -8,20 +8,19 @@ function NewCollections() {
     <div className="new-collections">
       <h1>NEW COLLECTIONS</h1>
       <hr />
-      <div className="collections di">
-        <div className="collection">
-          {new_collection.map((item, i) => {
-            return (
-              <Item
-                Key={i}
-                id={item.id}
-                name={item.name}
-                image={item.image}
-                new_price={item.new_price}
-              />
-            );
-          })}
-        </div>
+
+      <div className="collection">
+        {new_collection.map((item, i) => {
+          return (
+            <Item
+              Key={i}
+              id={item.id}
+              name={item.name}
+              image={item.image}
+              new_price={item.new_price}
+            />
+          );
+        })}
       </div>
     </div>
   );

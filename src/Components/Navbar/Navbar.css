@@ -62,7 +62,7 @@
 
 @media only screen and (max-width: 430px) {
   .navbar {
-    padding: 1px;
+    padding: 30px;
   }
   .nav-logo {
     display: none;
