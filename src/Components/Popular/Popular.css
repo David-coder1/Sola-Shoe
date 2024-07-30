@@ -60,7 +60,7 @@
   }
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 540px) {
   .popular-item {
     display: grid;
     grid-template-columns: 1fr 1fr;

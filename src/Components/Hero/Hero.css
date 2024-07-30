@@ -9,7 +9,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   padding-left: 120px;
   line-height: 1.1;
 }
@@ -98,7 +97,7 @@
   }
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 540px) {
   .hero-left h2 {
     color: #81817b;
     font-size: 36px;
@@ -114,7 +113,8 @@
   }
 
   .hero-latest-btn {
-    margin-left: 20%;
+    margin-left: 10%;
+    margin-top: 10%;
   }
 
   .hero_image {

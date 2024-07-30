@@ -59,10 +59,10 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 540px) {
   .new-collections {
     display: flex;
-    margin-top: 600px;
+    margin-top: 800px;
   }
   .new-collections h1 {
     color: #6ef640;
