@@ -35,6 +35,20 @@
 @media only screen and (max-width: 912px) {
   .relatedproducts-item {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  .relatedproducts h1 {
+    color: #000;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .relatedproducts {
+    margin-bottom: 190%;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .relatedproducts {
+    margin-bottom: 290%;
   }
 }

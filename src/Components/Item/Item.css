@@ -11,7 +11,7 @@
 }
 
 .item p {
-  margin: 6px 120px;
+  text-align: center;
   color: rgb(148, 151, 146);
   font-size: 20px;
   font-weight: 600;
@@ -54,27 +54,35 @@
   }
 
   .item p {
-    margin: 6px 50px;
     color: rgb(148, 151, 146);
     font-size: 20px;
     font-weight: 600;
   }
 
   .item-price-new {
-    color: rgb(255, 2, 2);
+    color: rgb(248, 0, 0);
     font-size: 18px;
-    font-size: 600;
-    margin: 6px 50px;
+    font-size: 700;
   }
 }
 
 @media only screen and (max-width: 820px) {
   .item-img {
-    width: 110px;
+    width: 310px;
   }
   .item {
     width: 190px;
 
     margin: 20px 10px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .item-img {
+    width: 210px;
+  }
+  .item {
+    width: 270px;
+    margin: 20px 60px;
   }
 }
