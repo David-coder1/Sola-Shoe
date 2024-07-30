@@ -1,6 +1,9 @@
 .item {
   width: 309px;
-  margin: 10px;
+  margin: 50px;
+
+  border-radius: 10px;
+  box-shadow: #6ef640 2px 2px 2px 2px;
 }
 
 .item-img {
@@ -8,7 +11,7 @@
 }
 
 .item p {
-  margin: 6px 0px;
+  margin: 6px 120px;
   color: rgb(148, 151, 146);
   font-size: 20px;
   font-weight: 600;
@@ -19,8 +22,9 @@
 }
 .item-price-new {
   color: rgb(255, 2, 2);
-  font-size: 18px;
+  font-size: 25px;
   font-size: 600;
+  margin: 6px 120px;
 }
 
 .item:hover {
