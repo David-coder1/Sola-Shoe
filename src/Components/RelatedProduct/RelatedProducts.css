@@ -35,7 +35,7 @@
 @media only screen and (max-width: 912px) {
   .relatedproducts-item {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .relatedproducts h1 {
     color: #000;
@@ -43,12 +43,19 @@
     font-weight: 600;
   }
   .relatedproducts {
-    margin-bottom: 190%;
+    margin-bottom: -60%;
   }
 }
 
 @media only screen and (max-width: 430px) {
   .relatedproducts {
     margin-bottom: 290%;
+  }
+  .relatedproducts-item {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .relatedproducts {
+    margin-bottom: 330%;
   }
 }

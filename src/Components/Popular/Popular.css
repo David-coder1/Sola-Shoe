@@ -69,8 +69,9 @@
   }
   .popular h1 {
     color: #6ef640;
-    font-size: 37px;
+    font-size: 30px;
     font-weight: 600;
+    margin-top: 60px;
   }
 }
 
@@ -79,7 +80,7 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 1px;
-    margin: 40px;
+    margin: 0px;
     margin-bottom: 5000px;
   }
   .popular {
