@@ -24,6 +24,11 @@
 .shopcategory-indexSort p span {
   font-weight: 600;
 }
+.shopcategory-product h1 {
+  color: #6ef640;
+  text-align: center;
+  margin: 30px;
+}
 
 .shopcategory-products {
   margin: 10px 70px;
