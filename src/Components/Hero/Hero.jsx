@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import arrow_icon from "../Assets/arrow.png";
-import hero_image from "../Assets/hero_image.png";
+import product13 from "../Assets/product_13.png";
 function Hero() {
   return (
     <div className="hero">
@@ -19,7 +19,7 @@ function Hero() {
       </div>
 
       <div className="hero-right">
-        <img src={hero_image} alt="" className="hero_image" />
+        <img src={product13} alt="" className="hero_image" />
       </div>
     </div>
   );

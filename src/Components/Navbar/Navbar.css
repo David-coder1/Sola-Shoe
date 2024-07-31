@@ -9,6 +9,9 @@
   align-items: center;
   gap: 10px;
 }
+.logo {
+  height: 50px;
+}
 .nav-logo p {
   color: #f56868;
   font-size: 38px;
