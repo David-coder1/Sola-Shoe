@@ -1,12 +1,12 @@
 import React from "react";
 import "./Offers.css";
-import excluscive_image from "../Assets/exclusive_image.png";
+import excluscive_image from "../Assets/product_18.png";
 
 function Offers() {
   return (
     <div className="offers">
       <div className="offers-left">
-        <h1>Exclusive</h1>
+          <h1>Exclusive</h1>
         <h1>Offers For You</h1>
         <p>ONLY ON BEST SELLERS PRODUCTS</p>
         <button>CHECK HOW</button>

@@ -4,8 +4,8 @@
   margin: auto;
   height: 60vh;
   padding: 0px 140px;
-  margin-bottom: 150px;
-  margin-top: 780px;
+  margin-bottom: 50px;
+  margin-top: 80px;
   background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
 }
 
@@ -49,10 +49,12 @@
   align-items: center;
   justify-content: flex-end;
   padding-top: 50px;
+  margin-left: 50px;
 }
 .excluscive_image {
-  height: 500px;
-  margin-top: 200px;
+  height: 400px;
+  margin-top: 300px;
+  border-radius: 100px;
 }
 @media only screen and (max-width: 1024px) {
   .offers {

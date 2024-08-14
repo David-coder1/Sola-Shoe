@@ -5,7 +5,7 @@ import Item from "../Item/Item";
 function RelatedProducts() {
   return (
     <div className="relatedproducts">
-      <h1>Available Products</h1>
+      <h1>AVAILABLE PRODUCTS</h1>
       <hr />
       <div className="relatedproducts-item">
         {data_product.map((item, i) => {
